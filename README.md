@@ -1,17 +1,63 @@
-# farmconnect
+# 🌾 Meru Farm Market
 
-A new Flutter project.
+A mobile-based direct-to-consumer digital marketplace for local agricultural produce in Meru County, Kenya.
 
-## Getting Started
+## 📱 Features
 
-This project is a starting point for a Flutter application.
+### 👤 Authentication
+- User registration (Farmer/Buyer/Admin)
+- Login with role-based access
+- Admin dashboard for management
 
-A few resources to get you started if this is your first Flutter project:
+### 🛒 Marketplace
+- Browse fresh produce from local farmers
+- Search by product, farmer, or location
+- Filter by location (Meru, Timau, Nkubu)
+- Add items to cart with quantity controls
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+### 👨‍🌾 Farmer Features
+- List produce with details (price, quantity, images)
+- View your listed products
+- Manage inventory
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 📦 Shopping Cart
+- Persistent cart storage (Hive)
+- Adjust quantities
+- Remove items
+- View total price
+
+### ⭐ Reviews & Ratings
+- Rate products (1-5 stars)
+- Write comments
+- View average ratings and review history
+
+### 📱 Social Features
+- Share products on WhatsApp
+- Product reviews with user avatars
+
+### 👨‍💼 Admin Dashboard
+- Overview statistics
+- Manage farmers
+- Manage products
+- App settings
+
+## 🛠️ Tech Stack
+
+- **Flutter** - Frontend framework
+- **Hive** - Local database for offline storage
+- **Share Plus** - Social media integration
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/AccursedPrince167/meru-farm-market.git
+
+# Navigate to project
+cd meru-farm-market
+
+# Get dependencies
+flutter pub get
+
+# Run the app
+flutter run
